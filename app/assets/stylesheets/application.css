@@ -1,0 +1,274 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require font-awesome
+ *= require_tree .
+ *= require_self
+ */
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+.truncate {
+  width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.lift-up {
+  position: absolute;
+  top: 4%;
+  left: 68%;
+}
+
+.mar-left-1 {
+  margin-left: 1%;
+}
+
+.bookmark-table table {
+  table-layout: fixed;
+}
+
+.bookmark-table td {
+  font-size: 1.5em;
+  overflow: hidden;
+}
+
+.table-delete-btn th, td {
+  overflow: hidden;
+  width: 5em;
+}
+
+.bkmk-name th, td {
+  overflow: hidden;
+  width: 50em;
+  text-align:left;
+}
+
+.not-so-wide {
+  width: 5em;
+}
+
+.mar-left-25 {
+  margin-left:25%;
+}
+
+.edit-name {
+  float: left !important;
+  width:30%;
+  margin-right: 2%;
+  font-size: 1.5em;
+  font-weight:500;
+  color: black;
+}
+
+.edit-folder {
+  margin-top:1%;
+  margin-bottom:1%;
+  margin-right:5%;
+}
+
+/*logo */
+#logo {
+  display: inline;
+  font-size: 1.5em;
+  font-weight: 700;
+text-shadow: 7px 7px 18px rgba(152, 150, 150, 1);}
+
+.container {
+  width: 87%;
+}
+
+.folder-count {
+  text-align: right;
+  margin-top:5%;
+  margin-right: 5%;
+}
+
+/* Modal */
+.modal-title {color: black;}
+.modal-footer {
+  border-top: 1px solid black;
+  margin-top: 20px;
+  }
+
+/*edit profile*/
+#create-user label {
+  color: black;
+  padding-top: 5px;
+}
+
+#bookmark-form label {
+  color: white;
+  padding-top: 5px;
+}
+
+
+
+
+.col-md-8.col-md-offset-2 {
+  background-color: rgba(0,0,0,0.5);
+  padding: 45px 0 45px 0;
+}
+#padding-top { padding-top: 60px; }
+li.display { list-style-type: none; }
+/*=======================
+
+Edit and delete for user's bookmarks
+==========================*/
+.edit-list { padding-top: 40px; }
+
+a.btn.btn-primary.spaced {
+  margin: 5px 0 5px 0;
+}
+
+.container-cubes {
+  margin-left:8%;
+  margin-right:8%;
+}
+
+.top-corner a {
+  font-size: 1.8em;
+}
+
+.align-right a {
+  position:absolute;
+  top: 0;
+  left:99%;
+}
+
+.fa-pencil-square-o {
+  color:black;
+}
+
+.fa-ban {
+  color: red;
+}
+
+.book-list {
+/*padding-top:.5%;*/
+}
+
+/*===========================*/
+form { color: black;}
+
+body {
+  padding-top: 60px;
+}
+
+body {
+  background: #0D1321;
+  /*background: #f0ebd8;*/
+  font-family: 'Lato', Arial, sans-serif;
+  color: #fff;
+}
+
+h3 {
+  color: white;
+}
+
+.folder-list {
+  padding-top:5px;
+  font-weight: bold;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.folder-list a {
+  font-size: 1.4em;
+  text-decoration:none;
+}
+
+.dropdown {
+  margin-top: -3%;
+  /*margin-right: 2%;*/
+}
+
+.btn-primary {
+  border radius:5%;
+}
+
+.thumbnail {
+  padding:0px;
+  margin-top: -12%;
+  border-radius:5%;
+  border: 1px solid black;
+}
+
+.stats {
+  margin-bottom: 5px;
+}
+
+.follow-space {
+  margin-top: 10px;
+}
+
+#user-table {
+  margin-left: 4%;
+  font-size: 1.5em;
+}
+
+.space {
+  width: 10px;
+}
+
+.big-space {
+  width: 20px;
+}
+
+.right-td {
+  text-align: right;
+}
+
+.mint-green {
+  color: #42dca3;
+}
+
+.mint-green:hover {
+  color: white;
+}
+
+.no-bullet {
+  list-style-type: none;
+}
+
+.followers {
+  color: #337ab7;
+}
+
+.users-index {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.pull-right {
+  float: right;
+  padding-right: 20px;
+  font-size:.75em;
+}
+
+.list-author a {
+  /*margin-left: 50px;*/
+  margin-top: -20px;
+  float: left;
+  color: #42dca3;
+}
+
+.list-author a:hover {
+  color: white;
+}
+
+.test-class {
+  margin-top: -5%;
+}
