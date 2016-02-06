@@ -39,9 +39,11 @@ We had a great time working on this and while we are all proud of the results so
 
 First open at least 3 terminal windows and start each server as follows:
 
+  ```
   redis-server
   be sidekiq
   rails server
+  ```
 
 To launch the application, direct your web browser to **```http://localhost:3000```**
 
