@@ -20,7 +20,7 @@ default: &default
   # For details on connection pooling, see rails configuration guide
   # http://guides.rubyonrails.org/configuring.html#database-pooling
   # ( DEFAULT CONNECTION POOL WAS 5 )
-  pool: 10
+  pool: 20
 
 development:
   <<: *default
