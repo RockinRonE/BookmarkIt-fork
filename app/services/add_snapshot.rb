@@ -16,14 +16,14 @@ class AddSnapshot
     ### READ FILE AS BINARY OBJ & RETURN OBJ
     tmp_file = File.open(filename, "rb") { |file| file.read }
     return filename
-
   end
 
   def self.create_filename(url, id)
     domain_regex = /https*:\/\/w*\.*(\w*\-*\w*)./
     domain = url.match(domain_regex).captures.join("")
     filename = "tmp/thumbnails/#{domain}-0000#{id}.jpg"
-    ### STORES TEMP SNAPSHOT IN TMP/domain-777777.jpg
+    ### STORES TEMP SNAPSHOT IN TMP/domain-0000id.jpg
+    # end
   end
 
 end

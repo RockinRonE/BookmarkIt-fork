@@ -9,7 +9,8 @@ var Screenshot = function(url, filename) {
 
 Screenshot.prototype.grab = function() {
   var page = require('webpage').create();
-  page.viewportSize = { width: 1024, height: 768 };
+  // page.viewportSize = { width: 1024, height: 768 };
+  page.viewportSize = { width: 512, height: 384 };
   // page.zoomFactor = 0.25;
   page.clipRect = { top: 0, left: 0, width: 384, height: 288 };   // Previously 576 x 432
   page.open(this.url, function() {

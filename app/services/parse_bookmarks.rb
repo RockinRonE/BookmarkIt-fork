@@ -26,9 +26,11 @@ class ParseBookmarks
           new_list.saved_bookmarks.create(bookmark_id: new_bookmark.id)
         else
           new_list.saved_bookmarks.create(bookmark_id: Bookmark.where(name: bookmark_info[0], url: bookmark_info[1]).first.id)
-          new_bookmark = Bookmark.where(name: bookmark_info[0], url: bookmark_info[1]).first
+          # new_bookmark = Bookmark.where(name: bookmark_info[0], url: bookmark_info[1]).first
         end
-        thumblist << new_bookmark.id
+        if new_bookmark
+          thumblist << new_bookmark.id
+        end
       end
     end
 
@@ -42,9 +44,11 @@ class ParseBookmarks
               new_list.saved_bookmarks.create(bookmark_id: new_bookmark.id)
             else
               new_list.saved_bookmarks.create(bookmark_id: Bookmark.where(name: bookmark_info[0], url: bookmark_info[1]).first.id)
-              new_bookmark = Bookmark.where(name: bookmark_info[0], url: bookmark_info[1]).first
+              # new_bookmark = Bookmark.where(name: bookmark_info[0], url: bookmark_info[1]).first
             end
-            thumblist << new_bookmark.id
+            if new_bookmark
+              thumblist << new_bookmark.id
+            end
           end
         end
       end
