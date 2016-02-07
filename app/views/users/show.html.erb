@@ -1,15 +1,15 @@
 <div class="container-cubes">
-<div class="row">
+<!-- <div class="row"> -->
 <div class="page-header">
-<h2><%= @user.full_name || @user.username %>'s Folders</h2>
-<h3>
-  <section class="stats">
-    <%= render 'shared/following_stats' %>
-    <%= render 'shared/follow_form' if current_user %>
-  </section>
-</h3>
 
-  <div class="dropdown pull-right" role="group">
+<%= render 'users/user_info' %>
+<div class="list-author">
+    <h5><%= render 'shared/following_stats' %></h5>
+    <h5><%= render 'shared/follow_form' if current_user %></h5>
+</div>
+</div>
+
+  <div class="dropdown pull-right test-class" role="group">
     <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Options
     <span class="caret"></span></button>
     <ul class="dropdown-menu">
@@ -23,7 +23,7 @@
       <li><%= link_to "Edit your profile", :action => "edit" %></li>
     </ul>
   </div>
-  </div>
+  <!-- </div> -->
 
     <% if @lists %>
     <% @lists.each do |list| %>

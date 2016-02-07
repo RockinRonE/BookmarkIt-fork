@@ -7,14 +7,13 @@ var Screenshot = function(url, filename) {
   this.filename = filename;
 }
 
-Screenshot.prototype.grab = function() {
+Screenshot.prototype.grab = function() {                    // Phantomjs grabs screenshot
   var page = require('webpage').create();
-  // page.viewportSize = { width: 1024, height: 768 };
-  page.viewportSize = { width: 512, height: 384 };
+  page.viewportSize = { width: 512, height: 384 };               // Previously 1024 x 768
   // page.zoomFactor = 0.25;
-  page.clipRect = { top: 0, left: 0, width: 384, height: 288 };   // Previously 576 x 432
+  page.clipRect = { top: 0, left: 0, width: 384, height: 288 };  // Previously 576 x 432
   page.open(this.url, function() {
-    page.render(filename, {format: 'jpg', quality: '20'});
+    page.render(filename, {format: 'jpg', quality: '20'});       // Saves to Tempfile
     phantom.exit();
   });
 }
