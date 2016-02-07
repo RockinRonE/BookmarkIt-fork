@@ -14,6 +14,8 @@ We had a great time working on this and while we are all proud of the results so
 - Twitter Bootstrap
 
 **Technologies that were new to us:**
+- WebGL
+- Three.js
 - Phantomjs
 - Redis
 - Sidekiq
