@@ -1,5 +1,5 @@
 class Snapshot < ActiveRecord::Base
-  belongs_to :bookmark
+  has_many :bookmarks      ### HAS MANY IN ORDER TO REDUCE DUPLICATION OF IMAGES
 
   has_attached_file :thumbnail, styles: {
     # thumb: '100x100>',
