@@ -61,8 +61,8 @@ To launch the application, direct your web browser to **```http://localhost:3000
 2. Drag and drop the file ext/bookmarkextension.crx into Chrome
 3. After a few seconds a dialog box will appear to add the extension
 
-Original Chrome Extension source code:
+**Original Chrome Extension source code:**
   - https://github.com/Corsomk312/BookMarketExtension
 
-Original 8-Day Final Project results:
+**Original 8-Day Final Project results:**
   - https://github.com/Corsomk312/BookMarkIt
