@@ -11,6 +11,7 @@ We had a great time working on this and while we are all proud of the results so
 - Ruby
 - JavaScript
 - Ruby on Rails
+- Nokogiri
 - Twitter Bootstrap
 
 **Technologies that were new to us:**
