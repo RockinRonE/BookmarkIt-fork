@@ -9,7 +9,7 @@ We had a great time working on this and while we are all proud of the results so
 **Core technologies:**
 
 - Ruby
-- Javascript
+- JavaScript
 - Ruby on Rails
 - Twitter Bootstrap
 
@@ -20,7 +20,7 @@ We had a great time working on this and while we are all proud of the results so
 - Redis
 - Sidekiq
 - Amazon S3
-- Google Chrome
+- Google Chrome APIs
 
 **Installation and setup of the application**
 
