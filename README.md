@@ -4,7 +4,7 @@
 <br>
 We presented The Bookmark It! web app and Chrome extension as the result of our 8 day final project for Dev Bootcamp in Chicago, IL. The goal of our project was to learn as much as possible about a handful of programming technologies that were new to all of us by implementing a bookmark sharing and visualization website.
 
-We had a great time working on this and while we are all proud of the results so far, it is still very much a work in progress – hence this fork. In fact, we have plans to refactor and improve on this in many ways. If you are interested in learning more or taking this further in any direction, we encourage you to fork this repository and get in touch with us.
+We had a great time working on this and while we are all proud of the results so far, it is still very much a work in progress (hence this fork). In fact, we have plans to refactor and improve on the original product in many ways. If you are interested in learning more or taking this further in any direction, we encourage you to fork this repository and get in touch with us.
 
 **Core technologies:**
 
