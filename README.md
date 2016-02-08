@@ -63,8 +63,14 @@ To launch the application, direct your web browser to **```http://localhost:3000
 2. Drag and drop the file ext/bookmarkextension.crx into Chrome
 3. After a few seconds a dialog box will appear to add the extension
 
-**Original Chrome Extension source code:**
+-------------------------------------------------------------------------
+###Links to the code
+
+**Original 8-Day Final Project source code**
+  - https://github.com/Corsomk312/BookMarkIt
+
+**Original Chrome Extension source code**
   - https://github.com/Corsomk312/BookMarketExtension
 
-**Original 8-Day Final Project results:**
-  - https://github.com/Corsomk312/BookMarkIt
+**Forked and current version of Bookmark It! (including the extension)**
+  - https://github.com/larsjx/BookmarkIt-fork
